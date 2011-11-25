@@ -1,0 +1,127 @@
+body {
+	background-color: #ffffff;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-size: 20px;
+}
+
+#page {
+	margin: 0 auto;
+	padding: 0 1em;
+	width: 36em; /* 960 px / 20 px */
+}
+
+h1, h2, h3, .oh-wow {
+	font-family: 'Bitter', Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+
+[role="banner"] {
+	background-color: rgba(200, 200, 200, .8);
+	height: 100%;
+	padding: 1em 0 0 0; /* 20 px, 0, 0, 0 */
+	position: fixed;
+	top: 0;
+	width: 7em; /* 140 px / 20 px */
+	z-index: 1;
+
+	h1 {
+		color: rgb(255, 102, 0);
+		font-size: 1.8em; /* 36 px / 20 px */
+		margin-bottom: 0.8333333333em; /* 60 px / 36 px */
+		padding-left: 0.1111111111em; /* 4px / 36px */
+		text-transform: lowercase;
+	}
+
+	[role="navigation"] {
+		a {
+			color: #ffffff;
+			display: block;
+			font-size: 2em; /* 40 px / 20 px */
+			padding: 0.1em; /* 4 px / 40 px */
+			text-decoration: none;
+			width: 18em; /* 200 px / 40 px */
+
+			text-shadow: 1px 1px 2px rgb(180, 180, 180);
+		}
+
+		a:hover {
+			background-color: rgba(255, 102, 0, .8);
+		}
+	}
+}
+
+
+section {
+	background-color: rgba(256, 256, 256, .7);
+	line-height: 1.25em;
+	margin-left: 8em; /* 160px / 20px */
+	margin-bottom: 20em; /* 400 px / 20 px */
+	position: relative;
+	
+	&:last-of-type {
+		margin-bottom: 1em; /* 20 px */
+	}
+	
+	&:hover {
+		z-index: 1;
+	}
+	
+	h1 {
+		font-size: 1.8em; /* 36 px / 20 px */
+		margin: 1.6666666667em 0 0.4166666667em 0; /* 60 px / 36 px, 0, 15px / 36px, 0 */
+	}
+	
+	h2 {
+		font-size: 1.25em; /* 25px / 20px */
+		margin: 1.2em 0 0.6em 0; /* 30 px / 25 px, 0, 15px / 25px, 0 */
+	}
+
+	h3 {
+		margin: 1em 0 .5em 0; /* 20px / 20px, 0, 10px / 20px, 0 */
+	}
+	
+	a {
+		color: rgb(255, 102, 0);
+		text-decoration: none;
+		
+		&:hover {
+			background-color: rgb(255, 102, 0);
+			color: #ffffff;
+		}
+	}
+	
+	#portrait {
+		float: right;
+		
+		img {
+			position: relative;
+			left: .4em;
+			width: 10em;
+			box-shadow: .1em .1em .5em #000000;
+			z-index: 0;
+		}
+		
+		
+	}
+}
+
+.oh-wow {
+	font-weight: bold;
+}
+
+
+@media only screen and (max-width: 767px) {
+	
+	#page {
+		width: 15em; /* 300 px / 20 px */
+	}
+	
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	#page {
+		width: 23em; /* 460 px / 20 px */
+	}
+	
+}

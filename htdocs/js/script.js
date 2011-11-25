@@ -1,5 +1,9 @@
 $(document).ready(function(){
 	
+	$('a[target="_blank"]').click(function(){
+		_gaq.push(['_trackPageview', '/outbound/' + $(this).attr('href')]);
+	});
+	
 	$('#mailto').click(function(){
 		_gaq.push(['_trackPageview', '/mailto']);
 	});

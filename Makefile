@@ -1,5 +1,5 @@
 less:
-	lessc htdocs/css/screen.less > htdocs/css/screen.css
+	~/node_modules/less/bin/lessc htdocs/css/screen.less > htdocs/css/screen.css
 
 
 local: less

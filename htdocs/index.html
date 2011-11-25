@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="de-DE">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<meta name="author" content="Marc-Oliver Teschke">
+	<meta name="description" content="Die persönliche Seite von Marc-Oliver Teschke, Web-Entwickler aus Düsseldorf. Lebenslauf, Links zu weiteren Profilen, Kontaktinformationen.">
+	<meta name="robots" content="index, follow">
+	
 	<title>Marc-Oliver Teschke</title>
-	<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/reset.css" />
-	<link rel="stylesheet/less" href="css/screen.less" />
+
+	<!--[if ! lte IE 6]><!-->
+		<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="/min/?f=css/reset.css,css/screen.css" />
+	<!--<![endif]-->
+
+	<!--[if lte IE 6]>
+		<link rel="stylesheet" href="/min/?f=css/ie6.1.1.css" media="screen, projection">
+	<![endif]-->
 
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
@@ -18,6 +29,7 @@
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
 	</script>
+	<script src="/js/modernizr.js"></script>
 </head>
 <body>
 	<div id="page">
@@ -32,51 +44,43 @@
 				</ul>
 			</nav>
 		</header>
+		<a name="hi">&nbsp;</a>
 		<section>
-			<a name="hi">&nbsp;</a>
 			<h1>Hi.</h1>
 			<figure id="portrait">
-				<img src="img/marcoliver-teschke.jpg" />
+				<img alt="Portrait Marc-Oliver Teschke. Mmmh, sexy…" src="img/marcoliver-teschke.jpg" />
 			</figure>
 			<p>Ich bin Marc-Oliver Teschke, Web-Entwickler aus Düsseldorf.</p>
 			<p>Tagtäglich mache ich <span class="oh-wow">valides HTML5</span> hübsch mit <span class="oh-wow">modernstem CSS3</span>. <span class="oh-wow">Javascript</span> und <span class="oh-wow">jQuery</span> sind mir wohl vertraut. <span class="oh-wow">PHP</span>, <span class="oh-wow">MySQL</span> und <span class="oh-wow">PostgreSQL</span> sind mein täglich Brot, ebenso wie <span class="oh-wow">Wordpress</span> und <span class="oh-wow">Drupal</span>.</p>
-			<p>Seit 2007 für <a href="http://www.planwerk6.de">PLANWERK 6</a>.</p>
+			<p>Seit 2007 für <a href="http://www.planwerk6.de/" target="_blank" title="PLANWERK 6">PLANWERK 6</a>.</p>
 			<p>Noch mehr topaktuelle Buzzwords finden Sie im <a class="goto" href="#cv">Lebenslauf</a>.</p>
 		</section>
+		<a name="cv">&nbsp;</a>
 		<section>
-			<a name="cv">&nbsp;</a>
 			<h1>Lebenslauf</h1>
+			<h2>Beruf:</h2>
 			<ul>
-				<li>
-					<label>Beruf:</label>
-					<ul>
-						<li>seit 2007 Entwickler für Internetanwendungen bei PLANWERK 6 in Düsseldorf</li>
-					</ul>
-				</li>
-				<li>
-					<label>Kenntnisse:</label>
-					<ul>
-						<li>HTML5</li>
-						<li>CSS3</li>
-						<li>Javascript / jQuery</li>
-						<li>PHP / CakePHP / CodeIgniter / RedBean / Limonade</li>
-						<li>Drupal / Wordpress / Perch</li>
-						<li>Java / Spring / Hibernate</li>
-						<li>XML / XSLT</li>
-						<li>Mac OS X / Linux / Windows</li>
-					</ul>
-				</li>
-				<li>
-					<label>Jodeldiplome:</label>
-					<ul>
-						<li>2007 BSc Internet Application Development @ Southampton Solent University</li>
-						<li>2006 staatlich geprüfter Informatiker Multimedia @ b.i.b. Paderborn</li>
-					</ul>
-				</li>
+				<li>seit 2007 Entwickler für Internetanwendungen bei <a href="http://www.planwerk6.de/" target="_blank" title="PLANWERK 6">PLANWERK 6</a> in Düsseldorf</li>
+			</ul>
+			<h2>Kenntnisse:</h2>
+			<ul>
+				<li>HTML5</li>
+				<li>CSS3</li>
+				<li>Javascript / jQuery</li>
+				<li>PHP / CakePHP / CodeIgniter / RedBean / Limonade</li>
+				<li>Drupal / Wordpress / Perch</li>
+				<li>Java / Spring / Hibernate</li>
+				<li>XML / XSLT</li>
+				<li>Mac OS X / Linux / Windows</li>
+			</ul>
+			<h2>Jodeldiplome:</h2>
+			<ul>
+				<li>2007: BSc Internet Application Development @ Southampton Solent University</li>
+				<li>2006: staatlich geprüfter Informatiker Multimedia @ b.i.b. Paderborn</li>
 			</ul>
 		</section>
+		<a name="links">&nbsp;</a>
 		<section>
-			<a name="links">&nbsp;</a>
 			<h1>Links</h1>
 			<p>Hier sammeln sich Links zu diversen Web-Örtlichkeiten, auf denen ich mich tummele…</p>
 			<ul>
@@ -90,23 +94,23 @@
 				<li><a href="http://vimeo.com/marcoliver" target="_blank" title="Marc-Oliver Teschke bei Vimeo">Vimeo</a></li>
 			</ul>
 		</section>
+		<a name="kontakt">&nbsp;</a>
 		<section>
-			<a name="kontakt">&nbsp;</a>
 			<h1>Kontakt / Impressum</h1>
 
 			<h2>Angaben gemäß § 5 TMG:</h2>
 			<p class="vcard">
-				<div class="fn">
+				<span class="fn">
 					<span class="given-name">Marc-Oliver</span> <span class="family-name">Teschke</span>
-				</div>
-				<div class="adr">
+				</span>
+				<span class="adr">
 					<span class="street-address">Derendorfer Straße 11</span><br />
 					<span class="postal-code">40479</span> <span class="locality">Düsseldorf</span>
-				</div>
+				</span>
 			</p>
 			<h2>Kontakt:</h2>
 			<p>Telefon: 01607873122</p>
-			<p>E-Mail: <a href="mailto:marcoliverteschke@mac.com">marcoliverteschke@mac.com</a></p>
+			<p>E-Mail: <a id="mailto" href="mailto:marcoliverteschke@mac.com">marcoliverteschke@mac.com</a></p>
 
 			<h2>Haftungsausschluss:</h2>
 			<h3>Haftung für Inhalte</h3>
@@ -161,12 +165,14 @@
 			<h3>Datenschutzerklärung für die Nutzung von Google Analytics</h3>
 				<p>Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. ("Google"). Google Analytics verwendet sog. "Cookies", Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IP-Anonymisierung auf dieser Webseite wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt.</p>
 				<p>Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.</p>
-				<p>Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: <a href="http://tools.google.com/dlpage/gaoptout?hl=de">http://tools.google.com/dlpage/gaoptout?hl=de</a>.<p> </p>
+				<p>Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: <a href="http://tools.google.com/dlpage/gaoptout?hl=de">Link</a>.<p> </p>
 				<p><i>Quellverweis: <a href="http://www.e-recht24.de/muster-disclaimer.htm" target="_blank">Disclaimer eRecht24</a>, <a href="http://www.google.com/intl/de_ALL/analytics/tos.html" target="_blank">Datenschutzerklärung für Google Analytics</a></i></p>
 		</section>
 	</div>
-	<script src="js/jquery.js"></script>
-	<script src="js/less-1.1.5.min.js"></script>
+<!--	<script src="js/jquery.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/respond.js"></script>-->
+	<script src="/min/?f=js/jquery.js,js/script.js,js/respond.js"></script>
+	
 </body>
 </html>

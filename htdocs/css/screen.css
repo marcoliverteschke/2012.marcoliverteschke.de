@@ -9,7 +9,6 @@ body {
   padding: 0 1em;
   width: 36em;
   /* 960 px / 20 px */
-
 }
 h1,
 h2,
@@ -26,25 +25,20 @@ img {
   height: 100%;
   padding: 1em 0 0 0;
   /* 20 px, 0, 0, 0 */
-
   position: fixed;
   top: 0;
   width: 7em;
   /* 140 px / 20 px */
-
   z-index: 1;
 }
 [role="banner"] h1 {
   color: #ff6600;
   font-size: 1.8em;
   /* 36 px / 20 px */
-
   margin-bottom: 0.8333333333em;
   /* 60 px / 36 px */
-
   padding-left: 0.1111111111em;
   /* 4px / 36px */
-
   text-transform: lowercase;
 }
 [role="banner"] [role="navigation"] a {
@@ -52,14 +46,11 @@ img {
   display: block;
   font-size: 2em;
   /* 40 px / 20 px */
-
   padding: 0.1em;
   /* 4 px / 40 px */
-
   text-decoration: none;
   width: 18em;
   /* 200 px / 40 px */
-
   text-shadow: 1px 1px 2px #b4b4b4;
 }
 [role="banner"] [role="navigation"] a:hover {
@@ -70,16 +61,13 @@ section {
   line-height: 1.25em;
   margin-left: 8em;
   /* 160px / 20px */
-
   margin-bottom: 20em;
   /* 400 px / 20 px */
-
   position: relative;
 }
 section:last-of-type {
   margin-bottom: 1em;
   /* 20 px */
-
 }
 section:hover {
   z-index: 1;
@@ -87,23 +75,18 @@ section:hover {
 section h1 {
   font-size: 1.8em;
   /* 36 px / 20 px */
-
   margin: 1.6666666667em 0 0.4166666667em 0;
   /* 60 px / 36 px, 0, 15px / 36px, 0 */
-
 }
 section h2 {
   font-size: 1.25em;
   /* 25px / 20px */
-
   margin: 1.2em 0 0.6em 0;
   /* 30 px / 25 px, 0, 15px / 25px, 0 */
-
 }
 section h3 {
   margin: 1em 0 .5em 0;
   /* 20px / 20px, 0, 10px / 20px, 0 */
-
 }
 section a {
   color: #ff6600;
@@ -130,12 +113,10 @@ section #portrait img:hover {
 section ul {
   margin: 1em 0 0 0;
   /* 20px, 0, 0, 10px */
-
 }
 section ul li {
   padding: .1em 0;
   /* 2px / 20px */
-
 }
 .oh-wow {
   font-weight: bold;
@@ -150,18 +131,15 @@ section ul li {
     padding: 0 .5em;
     width: 15em;
     /* 300 px / 20 px */
-  
   }
   [role="banner"] {
     font-size: .5em;
     /* 10px */
-  
     height: auto;
     padding-bottom: .4em;
     position: absolute;
     width: 30em;
     /* 300 px / 10 px */
-  
   }
   [role="banner"] [role="navigation"] li {
     display: inline;
@@ -173,10 +151,8 @@ section ul li {
     margin-left: 0;
     margin-top: 6em;
     /* 120 px / 20 px */
-  
     margin-bottom: 10em;
     /* 200 px / 20 px */
-  
     width: 15em;
   }
   section:hover {
@@ -193,12 +169,10 @@ section ul li {
   #page {
     width: 23em;
     /* 460 px / 20 px */
-  
   }
   [role="banner"] {
     width: 46em;
     /* 460 px / 10 px */
-  
   }
   section {
     width: 23em;
